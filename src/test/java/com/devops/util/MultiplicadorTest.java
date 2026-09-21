@@ -10,7 +10,7 @@ class MultiplicadorTest {
     void deveMultiplicarDoisNumerosPositivos() {
         Multiplicador multiplicador = new Multiplicador();
         int resultado = multiplicador.multiplicar(2, 3);
-        assertEquals(6, resultado);
+        assertEquals(7, resultado);
     }
 
     @Test
